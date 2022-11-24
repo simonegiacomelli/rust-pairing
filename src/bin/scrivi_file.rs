@@ -12,7 +12,7 @@ use std::io::prelude::*;
 use std::path::Path;
 
 fn main() {
-    let path = Path::new("lorem_ipsum.txt");
+    let path = Path::new("scrivi_file.txt");
     let display = path.display();
 
     // Open a file in write-only mode, returns `io::Result<File>`

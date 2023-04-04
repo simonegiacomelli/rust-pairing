@@ -1,5 +1,3 @@
-use serde::__private::de::Content::String;
-
 fn main() {
     let mut s = String::from("hello");
 

@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 serde = { version = "1.0.147", features = ["derive"] }
+sqlx = { version = "0.6", features = ["runtime-tokio-native-tls", "mysql", "postgres", "sqlite", "mssql"] }
+
+tokio = { version = "1", features = ["full"] }
